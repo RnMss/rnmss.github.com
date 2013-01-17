@@ -1,3 +1,5 @@
+baseurl: /nextworld
+
 auto: true
 pygments: true
 lsi: false
