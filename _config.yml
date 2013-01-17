@@ -1,4 +1,7 @@
 baseurl: /nextWorld
+title: nextWorld
+author: DreamApart
+email: pastever@gmail.com
 
 auto: true
 pygments: true
