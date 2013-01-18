@@ -166,7 +166,10 @@ ul, ol {
     margin: 0 0 0px 25px;
 }
 pre, code {
-    border-radius: 4px;
+    border-radius: 4pt;
+    padding: 4pt;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
 }
 ul {
     list-style: disc;
