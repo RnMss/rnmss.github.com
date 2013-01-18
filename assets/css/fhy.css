@@ -158,3 +158,6 @@ time {
     margin: 0;
     border-bottom: 1px dashed #eee;
 }
+.postsList > li > time {
+    float: right;
+}
