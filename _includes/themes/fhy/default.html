@@ -12,14 +12,17 @@
             var header = document.getElementById("header");
             var nav = document.getElementById("nav");
             var y = window.pageYOffset;
-            var cy = nav.offsetHeight;
+            var y0 = nav.offsetHeight;
+            var y1 = header.offsetHeight;
             var s = header.style;
 
             var y0 = cy;
             if (y < y0) {
                 s.top = "0px";
-            } else {
+            } else if (y < y0 + y1) {
                 s.top = (y0 - y) + "px";
+            } else {
+                s.top = (-y1) + "px";
             }
         });
     </script>
