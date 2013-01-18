@@ -198,3 +198,10 @@ ol {
 .pager .previous a {
     float: left;
 }
+
+hr {
+    border-top: dashed;
+    border-width: 1pt;
+    border-bottom: none;
+    border-color: #CCF;
+}
