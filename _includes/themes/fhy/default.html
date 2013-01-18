@@ -7,19 +7,21 @@
     <link href="/assets/css/fhy.css" rel="stylesheet">
     <link href="/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     <script src="/assets/js/google-code-prettify/prettify.js"></script>
-    <script type="text/javascript">
+    <script type="text/plain">
         window.addEventListener("scroll", function (e) {
             var header = document.getElementById("header");
             var y = window.pageYOffset;
             var cy = header.offsetHeight;
+            var s = header.style;
 
             var y0 = cy * 1.25, y1 = cy * 1.45;
             if (y < y0) {
-                header.style.opacity = 1.0;
+                s.opacity = 1.0;
             } else if (y < y1) {
-                header.style.opacity = 1.0 - (y - y0) / (y1 - y0);
+                s.opacity = 1.0 - (y - y0) / (y1 - y0);
             } else {
-                header.style.opacity = 0.0;
+                s.opacity = 0.0;
+                s.visibility = "hidden";
             }
         });
     </script>
