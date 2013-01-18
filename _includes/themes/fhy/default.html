@@ -10,8 +10,9 @@
     <script type="text/javascript">
         window.addEventListener("scroll", function (e) {
             var header = document.getElementById("header");
+            var nav = document.getElementById("nav");
             var y = window.pageYOffset;
-            var cy = header.offsetHeight;
+            var cy = nav.offsetHeight;
             var s = header.style;
 
             var y0 = cy;
@@ -30,7 +31,7 @@
             <span class="header-h2">next_world(World) --- The jiecaolessly meo-land</span></p>
         </div>
     </header>
-    <nav><div class="nav-body">
+    <nav id="nav"><div class="nav-body">
             <a href="/archive/">存档</a>
             <a href="/category/">分类</a>
             <a href="/tag/">标签</a>
