@@ -81,13 +81,13 @@ footer {
     font-family: serif;
     color: #000;
 }
-article {
+article.home {
     padding: 1em;
     margin: 5pt;
     font-size: 11pt;
     border-radius: 10pt;
 }
-article:hover {
+article.home:hover {
     background-color: #EEF;
 }
 .art-title {
