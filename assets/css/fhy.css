@@ -205,3 +205,11 @@ hr {
     border-bottom: none;
     border-color: #CCF;
 }
+
+blockquote {
+    margin: 10pt 5pt 0pt 5pt;
+    padding: 8pt 2pt 2pt 2pt;
+    background-repeat:no-repeat;
+    background-position: 0 0;
+    background-image: url(/images/quote.gif);
+}
