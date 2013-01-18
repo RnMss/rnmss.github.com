@@ -14,14 +14,11 @@
             var cy = header.offsetHeight;
             var s = header.style;
 
-            var y0 = cy, y1 = cy + 30;
+            var y0 = cy;
             if (y < y0) {
-                s.opacity = 1.0;
-            } else if (y < y1) {
-                s.opacity = 1.0 - (y - y0) / (y1 - y0);
+                s.top = "0px";
             } else {
-                s.opacity = 0.0;
-                s.visibility = "hidden";
+                s.top = (y0 - y) + "px";
             }
         });
     </script>
