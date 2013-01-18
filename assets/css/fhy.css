@@ -117,25 +117,22 @@ h1, h2, h3, h4, h5, h6, h7 {
     font-family:微软雅黑, sans-serif;
 }
 h1 {
-    font-size:32pt;
+    font-size:32px;
 }
 h2 {
-    font-size:28pt;
+    font-size:24px;
 }
 h3 {
-    font-size:24pt;
+    font-size:20px;
 }
 h4 {
-    font-size:20pt;
+    font-size:18px;
 }
 h5 {
-    font-size:16pt;
+    font-size:16px;
 }
 h6 {
-    font-size:14pt;
-}
-h7 {
-    font-size:12pt;
+    font-size:14px;
 }
 
 time {
