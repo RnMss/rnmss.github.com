@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <meta name="author" content="{{ site.author }}"/>
+    <link href="/assets/css/fhy.css" rel="stylesheet">
+    <script src="/assets/js/google-code-prettify/prettify.js"></script>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function (e) {
+            var header = document.getElementById("header");
+            var y = window.pageYOffset;
+            var cy = header.offsetHeight;
+
+            var y0 = cy * 1.25, y1 = cy * 1.45;
+            if (y < y0) {
+                header.style.opacity = 1.0;
+            } else if (y < y1) {
+                header.style.opacity = 1.0 - (y - y0) / (y1 - y0);
+            } else {
+                header.style.opacity = 0.0;
+            }
+        });
+    </script>
+</head>
+<body onload="prettyPrint()">
+    <header id="header">
+        <div class="header-title">
+            <p><a class="header-h1" href="/">{{ page.title }}</a>
+            <span class="header-h2">{{ page.subtitle }}</span></p>
+        </div>
+    </header>
+    <nav><div class="nav-body">
+            <a href="/archive.html">存档</a>
+            <a href="/category.html">分类</a>
+            <a href="/tags.html">标签</a>
+         </div></nav>
+    <div class="page-container">
+    <div class="page-body">
+    {{ content }}
+    </div></div>
+    <footer>CopyLeft by DreamApart.<br />
+        <em style="color: #888;">版权神马的太麻烦，不写了。</em>
+    </footer>
+</body>
+</html>
