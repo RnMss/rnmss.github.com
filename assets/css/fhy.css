@@ -207,9 +207,12 @@ hr {
 }
 
 blockquote {
-    margin: 10pt 5pt 0pt 5pt;
-    padding: 8pt 2pt 2pt 2pt;
-    background-repeat:no-repeat;
+    margin: 5pt 5pt 0pt 5pt;
+    padding: 12pt 4pt 2pt 8pt;
+    background-repeat: no-repeat;
     background-position: 0 0;
     background-image: url(/images/quote.gif);
+    color: #666;
+    font-style: italic;
+    font-family: serif;
 }
