@@ -158,7 +158,7 @@ time {
     margin: 0;
     border-bottom: 1px dashed #eee;
 }
-.postsList > li > time {
+.toRight {
     float: right;
 }
 ul, ol {
@@ -173,4 +173,28 @@ ul {
 }
 ol {
     list-style: decimal;
+}
+.pager {
+    margin-left: 0;
+    margin-bottom: 10px;
+    list-style: none;
+    text-align: center;
+    *zoom: 1;
+}
+
+.pager:before, .pager:after {
+    display: table;
+    content: ""}
+.pager:after {
+    clear: both;
+}
+.pager li {
+    display: inline;
+}
+
+.pager .next a {
+    float: right;
+}
+.pager .previous a {
+    float: left;
 }
