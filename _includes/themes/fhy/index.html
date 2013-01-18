@@ -8,7 +8,7 @@
             <span class="tag">{{ tag }}</span>
             {% endfor %}
             </h4></td>
-            <td class="art-time"><time>{{ post.date }}</time></td></tr>
+            <td class="art-time"><time>{{ post.date | date: "%Y-%m-%d %H:%M" }}</time></td></tr>
         <tr><td colspan="2" class="art-subtitle">
             {{ post.summary }}
             </td><tr>
