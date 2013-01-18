@@ -3,11 +3,11 @@
 <article class="home">
     <table style="width:100%">
         <tr><td>
-            <h4 class="art-title">{{ post.title }}
+            <p class="art-title">{{ post.title }}
             {% for tag in post.tags %}
             <span class="tag">{{ tag }}</span>
             {% endfor %}
-            </h4></td>
+            </p></td>
             <td class="art-time"><time>{{ post.date | date: "%Y-%m-%d %H:%M" }}</time></td></tr>
         <tr><td colspan="2" class="art-subtitle">
             {{ post.summary }}

@@ -91,6 +91,9 @@ article.home:hover {
     background-color: #EEF;
 }
 .art-title {
+    margin: 0 0 10pt 0;
+    font-family:微软雅黑, sans-serif;
+    font-size: 18pt;
     color: black;
 }
 .art-subtitle {
@@ -117,22 +120,22 @@ h1, h2, h3, h4, h5, h6, h7 {
     font-family:微软雅黑, sans-serif;
 }
 h1 {
-    font-size:32px;
+    font-size:28pt;
 }
 h2 {
-    font-size:24px;
+    font-size:22pt;
 }
 h3 {
-    font-size:20px;
+    font-size:20pt;
 }
 h4 {
-    font-size:18px;
+    font-size:18pt;
 }
 h5 {
-    font-size:16px;
+    font-size:16pt;
 }
 h6 {
-    font-size:14px;
+    font-size:14pt;
 }
 
 time {
