@@ -110,13 +110,15 @@ article.home:hover {
 }
 .tag {
     font-weight: lighter;
-    font-family: monospace;
+    font-family: 'Inconsolata', monospace;
     font-size: small;
-    border-width: 1pt;
+    color: #121;
+    border-width: 1px;
+    border-color: #563;
     border-style: solid;
-    border-color: #BD8 #8A5 #8A5 #BD8;
     background-color: #AC6;
-    padding: 3pt;
+    padding: 2pt 4pt 2pt 4pt;
+    margin: 0 1pt 0 1pt;
     border-radius: 4pt;
 }
 h1, h2, h3, h4, h5, h6 {
