@@ -32,12 +32,14 @@ header {
 .header-h1 {
     font-size: 45pt;
     font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Dosis', sans-serif;
     color: #CEE;
 }
 .header-h2 {
     font-style:italic;
     color: #ABF;
+    font-family: serif;
+    padding-left: 1.5em;
 }
 nav {
     background-color: #DDF;
@@ -174,8 +176,9 @@ pre, code {
     padding: 4pt;
     background-color: #f7f7f9;
     border: 1px solid #e1e1e8;
-    font-size: 10pt;
-    line-height: 1.5em;
+    font-size: 14px;
+    line-height: 1.6em;
+    font-family: 'Inconsolata', 'Consolas', monospace;
 }
 ul {
     list-style: disc;
