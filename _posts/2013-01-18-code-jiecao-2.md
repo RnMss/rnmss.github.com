@@ -96,7 +96,7 @@ int main() {
 <pre class="prettyprint lang-cpp">
 int main() { 
 	int a, b, c;
-	input(&a, &b, &c); 
+	input(&a, &b); 
 	c = calc(a, b);
 	output(c);
     return 0; 
