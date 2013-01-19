@@ -122,7 +122,7 @@ article.home:hover {
 h1, h2, h3, h4, h5, h6 {
     margin-top: 1em;
     margin-bottom: 0.6em;
-    font-family:微软雅黑, sans-serif;
+    font-family:'Dosis', '微软雅黑', sans-serif;
 }
 h1 {
     font-size:26pt;
