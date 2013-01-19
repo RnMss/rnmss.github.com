@@ -147,8 +147,8 @@ time {
     font-size: small;
     border-width: 1pt;
     border-style: solid;
-    border-color: #BBF #EEF #EEF #BBF;
-    background-color: #DDF;
+    border-color: #BBB #EEE #EEE #BBB;
+    background-color: #F6F6F6;
     padding: 3pt;
     border-radius: 3pt;
 }
