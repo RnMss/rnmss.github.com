@@ -151,6 +151,7 @@ time {
     background-color: #F6F6F6;
     padding: 3pt;
     border-radius: 3pt;
+    line-height: normal;
 }
 .postsList {
     margin: 0px 0px 10px 0px;
